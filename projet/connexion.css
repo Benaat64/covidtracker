@@ -1,0 +1,53 @@
+
+
+
+
+
+.container--session {
+    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;    
+}
+.container__title {
+    color: white;
+    border-bottom: 3px solid white;
+    font-size: 1.2rem;
+    height: 36px;   
+}
+
+.formconnexion {
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    
+    
+}
+
+.container--session input {
+    display: block;
+}
+
+.formconnexion__username , .formconnexion__password{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90px;
+    align-items: center;
+    opacity: 0;
+   
+    
+}
+
+.formconnexion__button {
+    border-bottom: 3px solid white;
+    color: white;
+    visibility: hidden;
+    
+    
+}

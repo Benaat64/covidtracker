@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: rgb(30, 30, 30);
+    height: 100%;
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+    margin-top: 1em;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    /* Les tailles de polices doivent être en rem */
+    font-size: 2.5rem;  
+    text-shadow: 0 0 0 black;
+    color: white;
+    /* font-family: "Oswald", sans-serif; */
+    
+    padding-bottom: 60px;
+}
+
+#myImage {
+    position: fixed;
+    top: 5px; /* Positionnement au bord supérieur */
+    left: 30px; /* Positionnement au bord droit */
+    width: 70px; /* Largeur désirée */
+    height: auto; /* Permet de conserver les proportions de l'image */
+  }
+  #myImage.show-css {
+    /* Styles de l'image lorsque le clic est détecté */
+    /* Par exemple : */
+    border: 2px solid red;
+    transform: scale(1.2); /* Agrandissement de 20% */
+    display: grid;
+    grid-template-columns: 3;
+}
+
+  #myImage2 {
+    position: fixed;
+    top: 5px; /* Positionnement au bord supérieur */
+    right: 30px; /* Positionnement au bord droit */
+    width: 70px; /* Largeur désirée */
+    height: auto; /* Permet de conserver les proportions de l'image */
+  }
+
+  .container{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.9rem;  
+    text-shadow: 0 0 0 black;
+    color: white;
+    /* position: fixed; */
+    
+   
+    text-align: center;
+  }
+  #pixel{
+    /* background-color: #f0f0f0; Couleur de fond */
+    color: #333; /* Couleur du texte */
+    padding: 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    /* border: 1px solid #ccc; Bordure solide */
+    font-size: 16px; /* Taille de la police */
+    margin: 20px auto; /* Marge extérieure (auto pour centrer horizontalement) */
+    max-width: 1000px; /* Définir une largeur maximale */
+    max-height: 300px; /* Définir une hauteur maximale */
+    display: block; /* Assurer que l'image est affichée en tant que bloc */
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto; /* Centrer horizontalement */
+    top: 200px;
+    right: 600px;
+    z-index: 5;
+    
+  }
+
+
+  button {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 16px; /* Taille de la police */
+    /* Autres styles personnalisés pour les boutons */
+    background-color:  rgb(30, 30, 30); /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de la souris */
+  }
+
+  #cssContent {
+    /* Styles de l'élément par défaut */
+    display: none; /* Le contenu est initialement caché */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  
+}
+
+
+#monSac {
+  cursor: pointer;
+  position: fixed;
+  top: 5px; /* Positionnement au bord supérieur */
+  left: 30px; /* Positionnement au bord droit */
+  width: 70px; /* Largeur désirée */
+  height: auto;
+}
+
+.inventaire {
+  display: none;
+  position: absolute;
+  background-color: rgb(30, 30, 30);
+  z-index: 1;
+  text-align: center; /* Centrer le contenu horizontalement */
+  
+ 
+ 
+}
+
+.grille {
+  display: grid; /* Utilisation de CSS Grid pour une grille */
+  grid-template-columns: repeat(3, 70px); /* Trois colonnes de 70 pixels */
+  
+  width: 100%;
+ 
+  
+}
+
+.emplacement {
+  width: 70px; /* Largeur de chaque cellule */
+  height: 70px; /* Hauteur de chaque cellule */
+  border: 1px solid #f0ebeb; /* Bordure pour chaque emplacement */
+  background-color: rgb(30, 30, 30); /* Couleur de fond */
+  
+}
+
+.emplacement img {
+  width: 100%; /* La largeur de l'image prendra 100% de la largeur de la cellule */
+  height: auto; /* La hauteur s'ajustera automatiquement pour maintenir les proportions de l'image */
+
+}
