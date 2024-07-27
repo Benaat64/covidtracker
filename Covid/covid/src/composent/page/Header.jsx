@@ -31,7 +31,6 @@ const Header = ({ data }) => {
     })
   );
 
-  // Trier les continents par nombre total de décès (du plus élevé au moins élevé)
   const sortedContinents = continentsWithDeaths.sort(
     (a, b) => b.deaths - a.deaths
   );
@@ -46,7 +45,7 @@ const Header = ({ data }) => {
       >
         <div className="text-2xl font-semibold">
           <NavLink to="/" className="hover:text-gray-400">
-            MyApp
+            CovidTracker
           </NavLink>
         </div>
 

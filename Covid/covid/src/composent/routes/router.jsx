@@ -5,24 +5,18 @@ import Details from '../page/Details';
 
 import Root from './root';
 
-// On va avoir dans cette variable un tableau de routes (objets)
-
 const router = createBrowserRouter([
   {
-    element: <Root />, // L'élément commun à l'ensemble des pages sera l'élément Root
+    element: <Root />,
     children: [
       {
         path: '/',
-        element: <Homepage />, // Pour chaque page l'élement de la page à récupérer
+        element: <Homepage />,
       },
       {
         path: '/details/:continentId',
         element: <Details />,
       },
-      // {
-      //   path: '/details/all',
-      //   element: <All />,
-      // },
     ],
   },
 ]);
