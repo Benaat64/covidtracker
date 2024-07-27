@@ -26,6 +26,7 @@ Pendant mes cours, j'ai pris l'initiative de réaliser ce projet pour découvrir
 
 - Créer des sessions pour pouvoir mettre les pays en favoris.
 - Ajouter une section Favoris pour accéder rapidement aux pays favoris.
+- Améliorer l'organisation des fichiers pour une meilleure structure du projet.
 
 ## Utilisation des Hooks
 
