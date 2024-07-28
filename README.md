@@ -4,6 +4,7 @@
 
 Pendant mes cours, j'ai pris l'initiative de réaliser ce projet pour découvrir et pratiquer React, Tailwind CSS et JSX. J'ai utilisé deux API : une pour obtenir des données sur le Covid et une pour afficher les drapeaux (c'est pourquoi certains drapeaux peuvent ne pas apparaître).
 
+Démo du project :  [ici](covidtracker-pi.vercel.app).
 
 ## Fonctionnalités
 
